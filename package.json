@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6007",
+    "start": "start-storybook -p 6007",
     "build-storybook": "build-storybook"
   },
   "keywords": [],
@@ -20,5 +20,8 @@
     "babel-loader": "^8.1.0",
     "react-is": "^16.13.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5"
+  }
 }
