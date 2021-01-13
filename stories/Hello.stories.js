@@ -16,5 +16,5 @@ Hello1.args = {
 
 export const Hello2 = Template.bind({});
 Hello2.args = {
-  name:'Jack'
+  name:'Jack123'
 };
